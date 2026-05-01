@@ -79,7 +79,14 @@ body {
     gap: 10px; 
     justify-content: center; 
 }
-.mode-btn { background: transparent; border: 1px solid var(--neon-blue); color: var(--text-white); padding: 8px 16px; border-radius: 20px; cursor: pointer; }
+.mode-btn { 
+    background: transparent; 
+    border: 1px solid var(--neon-blue); 
+    color: var(--text-white); 
+    padding: 8px 16px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+}
 .active-mode { background: var(--neon-blue); color: var(--bg-dark); font-weight: bold; }
 
 .scoreboard { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; }
