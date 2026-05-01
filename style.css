@@ -151,7 +151,7 @@ body {
     transition: 0.2s; 
 }
 .cell:hover { 
-    background: #334155; 
+    background: var(--cell-hover);
 }
 
 /* media Queries */
