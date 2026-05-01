@@ -4,8 +4,21 @@
     --neon-teal: #2dd4bf;
     --neon-blue: #38bdf8;
     --text-white: #f8fafc;
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-color: #f8fafc;
+    --accent-color: #2dd4bf;
+    --secondary-accent: #38bdf8;
+    --cell-hover: #334155;
 }
-
+.light-theme {
+    --bg-color: #f1f5f9;
+    --card-bg: #ffffff;
+    --text-color: #1e293b;
+    --accent-color: #0d9488;
+    --secondary-accent: #0284c7;
+    --cell-hover: #e2e8f0;
+}
 * { 
   margin: 0; 
   padding: 0; 
