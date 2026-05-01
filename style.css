@@ -152,8 +152,23 @@ body {
         padding: 10px; 
         border-radius: 8px; 
     }
-    .nav-links.active { display: flex; }
-    .board { width: 100%; max-width: 300px; margin: 0 auto 20px auto; }
+    .nav-links.active { 
+        display: flex; 
+    }
+    .board { 
+        width: 100%; 
+        max-width: 300px; 
+        margin: 0 auto 20px auto; 
+    }
 }
 
-.btn-primary { background: var(--neon-teal); color: var(--bg-dark); border: none; padding: 12px 30px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem; }
+.btn-primary { 
+    background: var(--neon-teal); 
+    color: var(--bg-dark); 
+    border: none; 
+    padding: 12px 30px; 
+    border-radius: 8px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    font-size: 1rem; 
+}
