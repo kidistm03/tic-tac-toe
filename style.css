@@ -133,12 +133,25 @@ body {
     cursor: pointer; 
     transition: 0.2s; 
 }
-.cell:hover { background: #334155; }
+.cell:hover { 
+    background: #334155; 
+}
 
 /* media Queries */
 @media (max-width: 600px) {
-    .hamburger { display: flex; }
-    .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; right: 20px; background: var(--card-bg); padding: 10px; border-radius: 8px; }
+    .hamburger { 
+        display: flex; 
+    }
+    .nav-links { 
+        display: none; 
+        flex-direction: column; 
+        position: absolute; 
+        top: 60px; 
+        right: 20px; 
+        background: var(--card-bg); 
+        padding: 10px; 
+        border-radius: 8px; 
+    }
     .nav-links.active { display: flex; }
     .board { width: 100%; max-width: 300px; margin: 0 auto 20px auto; }
 }
