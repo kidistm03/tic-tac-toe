@@ -43,7 +43,14 @@ body {
     list-style: none; 
     display: flex; 
 }
-.nav-links button { background: transparent; border: 1px solid var(--neon-teal); color: var(--neon-teal); padding: 5px 15px; border-radius: 5px; cursor: pointer; }
+.nav-links button { 
+    background: transparent; 
+    border: 1px solid var(--neon-teal); 
+    color: var(--neon-teal); 
+    padding: 5px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
 
 /* Hamburger (Mobile) */
 .hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
