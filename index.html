@@ -1,64 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe - Duo Edition</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<nav class="navbar">
-        <div class="logo"> DuoGrid</div>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul class="nav-links" id="nav-links">
-            <li><button id="fullResetBtn">Full Reset Score</button></li>
-        </ul>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">DuoGrid</div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><button id="fullResetBtn">Full Reset Score</button></li>
+      </ul>
     </nav>
 
     <main class="container">
-<header>
-            <h1>Tic Tac Toe</h1>
-            <!-- code to Add Mode Toggle  -->
-            <div class="mode-selector">
-                <button id="soloBtn" class="mode-btn">Solo (vs CPU)</button>
-                <button id="duoBtn" class="mode-btn active-mode">Duo (2 Player)</button>
-            </div>
-        </header>
-
-<section class="scoreboard">
-            <div class="player-card x-active" id="cardX">
-                <span class="label">Player X</span>
-                <span class="score" id="scoreX">0</span>
-            </div>
-            <div class="player-card" id="cardO">
-                <span class="label" id="labelO">Player O</span>
-                <span class="score" id="scoreO">0</span>
-            </div>
-        </section>
-
-        <div class="status" id="statusText">Player X, start the game!</div>
-
-        <section class="board" id="board">
-            <div class="cell" data-index="0"></div>
-            <div class="cell" data-index="1"></div>
-            <div class="cell" data-index="2"></div>
-            <div class="cell" data-index="3"></div>
-            <div class="cell" data-index="4"></div>
-            <div class="cell" data-index="5"></div>
-            <div class="cell" data-index="6"></div>
-            <div class="cell" data-index="7"></div>
-            <div class="cell" data-index="8"></div>
-        </section>
-
-        <div class="controls">
-            <button id="restartBtn" class="btn-primary">Next Round</button>
+      <header>
+        <h1>Tic Tac Toe</h1>
+        <!-- code to Add Mode Toggle  -->
+        <div class="mode-selector">
+          <button id="soloBtn" class="mode-btn">Solo (vs CPU)</button>
+          <button id="duoBtn" class="mode-btn active-mode">
+            Duo (2 Player)
+          </button>
         </div>
+      </header>
+
+      <section class="scoreboard">
+        <div class="player-card x-active" id="cardX">
+          <span class="label">Player X</span>
+          <span class="score" id="scoreX">0</span>
+        </div>
+        <div class="player-card" id="cardO">
+          <span class="label" id="labelO">Player O</span>
+          <span class="score" id="scoreO">0</span>
+        </div>
+      </section>
+
+      <div class="status" id="statusText">Player X, start the game!</div>
+
+      <section class="board" id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </section>
+
+      <div class="controls">
+        <button id="restartBtn" class="btn-primary">Next Round</button>
+      </div>
     </main>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
