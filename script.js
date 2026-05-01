@@ -132,3 +132,18 @@ document.getElementById('fullResetBtn').addEventListener('click', () => {
 document.getElementById('hamburger').addEventListener('click', () => {
     document.getElementById('nav-links').classList.toggle('active');
 });
+// --- THEME TOGGLE LOGIC ---
+const themeToggle = document.getElementById('themeToggle');
+const bodyElement = document.body;
+
+themeToggle.addEventListener('click', () => {
+    // Toggle the class on the body
+    bodyElement.classList.toggle('light-theme');
+    
+    // Update the button text so the user knows what will happen next
+    if (bodyElement.classList.contains('light-theme')) {
+        themeToggle.innerText = "🌙 Dark Mode";
+    } else {
+        themeToggle.innerText = "☀️ Light Mode";
+    }
+});

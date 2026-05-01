@@ -51,7 +51,7 @@ body {
 .logo { 
     font-weight: bold; 
     font-size: 1.5rem; 
-    color: var(--neon-teal); 
+    color: var(--accent-color); 
 }
 .nav-links { 
     list-style: none; 
