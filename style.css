@@ -93,7 +93,12 @@ body {
     font-weight: bold; 
 }
 
-.scoreboard { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; }
+.scoreboard { 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-bottom: 20px; 
+}
 .player-card { background: var(--card-bg); padding: 10px 20px; border-radius: 12px; border: 2px solid transparent; flex: 1; }
 .player-card.x-active { border-color: var(--neon-blue); box-shadow: 0 0 10px var(--neon-blue); }
 .player-card.o-active { border-color: var(--neon-teal); box-shadow: 0 0 10px var(--neon-teal); }
