@@ -122,7 +122,17 @@ body {
     gap: 10px; 
     margin-bottom: 20px; 
 }
-.cell { background: var(--card-bg); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 3rem; font-weight: bold; cursor: pointer; transition: 0.2s; }
+.cell { 
+    background: var(--card-bg); 
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 3rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: 0.2s; 
+}
 .cell:hover { background: #334155; }
 
 /* media Queries */
