@@ -106,8 +106,14 @@ body {
     border: 2px solid transparent; 
     flex: 1; 
 }
-.player-card.x-active { border-color: var(--neon-blue); box-shadow: 0 0 10px var(--neon-blue); }
-.player-card.o-active { border-color: var(--neon-teal); box-shadow: 0 0 10px var(--neon-teal); }
+.player-card.x-active { 
+    border-color: var(--neon-blue); 
+    box-shadow: 0 0 10px var(--neon-blue); 
+}
+.player-card.o-active { 
+    border-color: var(--neon-teal); 
+    box-shadow: 0 0 10px var(--neon-teal); 
+}
 
 .board { display: grid; grid-template-columns: repeat(3, 1fr); aspect-ratio: 1/1; gap: 10px; margin-bottom: 20px; }
 .cell { background: var(--card-bg); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 3rem; font-weight: bold; cursor: pointer; transition: 0.2s; }
