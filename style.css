@@ -87,7 +87,11 @@ body {
     border-radius: 20px; 
     cursor: pointer; 
 }
-.active-mode { background: var(--neon-blue); color: var(--bg-dark); font-weight: bold; }
+.active-mode { 
+    background: var(--neon-blue); 
+    color: var(--bg-dark); 
+    font-weight: bold; 
+}
 
 .scoreboard { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; }
 .player-card { background: var(--card-bg); padding: 10px 20px; border-radius: 12px; border: 2px solid transparent; flex: 1; }
