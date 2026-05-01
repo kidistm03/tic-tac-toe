@@ -1,6 +1,6 @@
 # Tic Tac Toe – Solo or Duo
 
-A responsive Tic Tac Toe game with **Two Player** mode and **Single Player vs Smart AI**.
+A responsive Tic Tac Toe game with **Two Player** mode and **Single Player**.
 
 ## Features
 - Choose between Two Player or vs Computer
