@@ -67,7 +67,12 @@ body {
 }
 
 /* Layout & Grid */
-.container { text-align: center; padding: 20px; max-width: 500px; width: 100%; }
+.container { 
+    text-align: center; 
+    padding: 20px; 
+    max-width: 500px; 
+    width: 100%; 
+}
 .mode-selector { margin: 15px 0; display: flex; gap: 10px; justify-content: center; }
 .mode-btn { background: transparent; border: 1px solid var(--neon-blue); color: var(--text-white); padding: 8px 16px; border-radius: 20px; cursor: pointer; }
 .active-mode { background: var(--neon-blue); color: var(--bg-dark); font-weight: bold; }
