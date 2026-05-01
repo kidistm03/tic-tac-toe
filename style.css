@@ -33,6 +33,7 @@ body {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
+    transition: background 0.3s, color 0.3s;
 }
 
 /* Navbar */
@@ -78,7 +79,10 @@ body {
     background: var(--neon-teal); 
     transition: 0.3s; 
 }
-
+.player-card, .cell, .navbar { 
+    background: var(--card-bg); 
+    color: var(--text-color);
+}
 /* Layout & Grid */
 .container { 
     text-align: center; 
