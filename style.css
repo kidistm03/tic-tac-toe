@@ -34,7 +34,11 @@ body {
     top: 0; 
     z-index: 100; 
 }
-.logo { font-weight: bold; font-size: 1.5rem; color: var(--neon-teal); }
+.logo { 
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    color: var(--neon-teal); 
+}
 .nav-links { list-style: none; display: flex; }
 .nav-links button { background: transparent; border: 1px solid var(--neon-teal); color: var(--neon-teal); padding: 5px 15px; border-radius: 5px; cursor: pointer; }
 
